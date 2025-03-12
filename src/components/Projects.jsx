@@ -37,7 +37,7 @@ const projects = [
     description: "Created interactive dashboards to visualize sales trends, regional performance, and key business metrics.",
     category: "da",
     tags: ["Tableau", "SQL", "Excel", "Data Visualization"],
-    image: "/assets/data-intelligence-engine.png",
+    image: require('../assets/data-intelligence-engine.png'),
     github: "https://github.com/yourusername/sales-dashboard",
     demo: "https://your-demo-link.com"
   },
@@ -47,7 +47,7 @@ const projects = [
     description: "Built and deployed a machine learning model to analyze customer feedback and social media sentiment.",
     category: "ml",
     tags: ["NLP", "TensorFlow", "BERT", "Python"],
-    image: "/assets/data-intelligence-engine.png",
+    image: require('../assets/data-intelligence-engine.png'),
     github: "https://github.com/yourusername/sentiment-analysis",
     demo: "https://your-demo-link.com"
   }
