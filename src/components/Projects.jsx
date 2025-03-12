@@ -17,7 +17,7 @@ const projects = [
     description: "Built scalable Retrieval-Augmented Generation pipelines for production environments, optimizing document retrieval and response generation.",
     category: "ai",
     tags: ["LangChain", "Python", "Vector DB", "LLMs"],
-    image: "/assets/rag-pipeline.webp",
+    image: require('../assets/rag-pipeline.webp'),
     github: "https://github.com/yourusername/rag-pipeline",
     demo: "https://your-demo-link.com"
   },
@@ -27,7 +27,7 @@ const projects = [
     description: "Developed predictive models to identify potential customer churn using historical data and behavior patterns.",
     category: "ds",
     tags: ["Python", "Scikit-learn", "Pandas", "SQL"],
-    image: "/assets/data-viz.png",
+    image: require('../assets/data-viz.png'),
     github: "https://github.com/yourusername/churn-analysis",
     demo: "https://your-demo-link.com"
   },

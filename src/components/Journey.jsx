@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiBookOpen, FiBriefcase } from 'react-icons/fi';
+import dataVizImage from '../assets/data-viz.png';
 
 const journeyPoints = [
   {
@@ -96,7 +97,7 @@ const Journey = () => {
         >
           <div className="sticky top-24">
             <img 
-              src="/assets/data-viz.png" 
+              src={dataVizImage}
               alt="Journey Illustration" 
               className="w-full rounded-2xl shadow-lg"
             />

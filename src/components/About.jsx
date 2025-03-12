@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { FiBook, FiCode, FiPenTool, FiTrendingUp } from 'react-icons/fi';
 import { GiTennisRacket } from 'react-icons/gi';
 import Journey from './Journey';
+import standardBankImage from '../assets/apple-hq-image.jpg';
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
             className="relative"
           >
             <img 
-              src="/assets/apple-hq-image.jpg"
+              src={standardBankImage}
               alt="Xavier at Standard Bank HQ" 
               className="w-full rounded-2xl shadow-lg"
             />

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiMail, FiLinkedin, FiTwitter, FiArrowUpRight } from 'react-icons/fi';
+import dataIntelligenceImage from '../assets/data-intelligence-engine.png';
 
 const Hero = () => {
   return (
@@ -83,7 +84,7 @@ const Hero = () => {
             transition={{ duration: 0.7 }}
           >
             <img 
-              src="/assets/data-intelligence-engine.png" 
+              src={dataIntelligenceImage}
               alt="Data Intelligence Engine Diagram" 
               className="w-full h-auto max-w-[400px] mx-auto lg:max-w-none"
             />
