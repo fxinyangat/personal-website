@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiBookOpen, FiBriefcase } from 'react-icons/fi';
+import { FiBookOpen, FiBriefcase, FiMapPin } from 'react-icons/fi';
 import dataVizImage from '../assets/apple-hq-image4.png';
 
 const journeyPoints = [
@@ -7,28 +7,37 @@ const journeyPoints = [
     id: 1,
     title: "Arizona State University",
     role: "AI Data Analyst | Msc. Artificial Intelligence",
-    period: "Present",
+    period: "2024 - Present",
     type: "work",
-    description: "AI Research Analyst focusing on Data Science, ML, NLP, RAG pipelines, LLMs finetuning"
+    description: "Data Science - ML, NLP, RAG pipelines, LLMs finetuning"
   },
   {
     id: 2,
     title: "Standard Bank",
     role: "Credit Data Analyst",
-    period: "2022 - 2023",
+    period: "2022 - 2024",
     type: "work",
-    description: "ML, Data Modeling, ETL Pipelines, Banking Process Automation & Analytics"
+    description: "ML, Data Modeling, ETL Pipelines, SQL, Python & Power BI Dashboards."
   },
   {
     id: 3,
-    title: "Refactory Academy",
-    role: "Software Dev",
+    title: "Refactory",
+    role: "Software Developer",
     period: "2021 - 2022",
     type: "work",
-    description: "Full Stack Software Development and Database management"
+    description: "Software Development - Python,JavaScript, SQL, AWS, JavaScript"
   },
   {
     id: 4,
+    title: "BUAIIR Lab",
+    role: "AI/ML Research Intern",
+    period: "2021 - 2021",
+    type: "work",
+    description: "AI Research: ML models, IoT Embedded Systems, TensorFlow, PyTorch, Python"
+  },
+  
+  {
+    id: 5,
     title: "Busitema University",
     role: "BSc. Computer Engineering",
     period: "2017 - 2021",
@@ -101,9 +110,14 @@ const Journey = () => {
               alt="Journey Illustration" 
               className="w-full rounded-2xl shadow-lg"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-blue-500/10 to-transparent rounded-2xl"></div>
+            <div className="absolute bottom-2 left-4 bg-white/50 backdrop-blur-sm p-3 rounded-lg flex items-center gap-2">
+              <FiMapPin className="w-4 h-4 text-blue-600" />
+              <p className="text-sm">Standard Bank HQ, Johannesburg, South Africa</p>
+            </div>
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-blue-500/10 to-transparent rounded-2xl"></div> */}
           </div>
         </motion.div>
+       
       </div>
     </div>
   );

@@ -26,8 +26,8 @@ const About = () => {
               alt="Xavier at Standard Bank HQ" 
               className="w-full rounded-2xl shadow-lg"
             />
-            <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm p-3 rounded-lg">
-              <p className="text-sm">Standard Bank HQ, Johannesburg, South Africa</p>
+            <div className="absolute bottom-4 left-4 bg-white/50 backdrop-blur-sm p-3 rounded-lg">
+              <p className="text-sm">Xavier Inyangat - AI Engineer | Data Scientist</p>
             </div>
           </motion.div>
 
@@ -55,27 +55,37 @@ const About = () => {
            
 
             <div className="space-y-6 text-gray-600 leading-relaxed">
+              
+          
               <p>
-              Applied Data Scientist pursuing a Master's in Artificial Intelligence at Arizona State University. 
-              As an AI Research Analyst at ASU, I specialize in LLMs and Retrieval-Augmented Generation, developing scalable 
-              solutions that deliver measurable results.
+              Applied Data Scientist with a passion for transforming complex challenges into AI-powered solutions. 
+              At ASU, I architect next-generation <b><i> LLM</i></b> systems with  <b><i> RAG + Fine-tuning</i></b> frameworks that make 
+              academic information retrieval 18x more efficient and cheaper while maintaining contextual accuracy.
               </p>
 
               <p>
-              My technical arsenal includes <b><i>Python, SQL, Spark, PyTorch, and AWS</i></b>, 
-              complemented by data visualization expertise in <b><i>Tableau and Power BI</i></b>. I excel at identifying, collaborating & 
-              engineering solutions to data problems through workflow automation, data analysis, and predictive modeling.
+              My journey through financial data at Standard Bank revealed how <b><i>SQL-driven analytics</i></b> and <b><i>Machine Learning (ML)</i></b> can 
+              transform credit risk and operations. I revolutionized credit evaluation by implementing gradient boosting models 
+              that reduced default prediction errors by 22% and developed <b><i>Power BI</i></b> dashboard reports that helped stakeholders identify potential 
+              fraud and loan defaults before impacting the bank.
+              </p>
+
+              <p>
+              From distributed <b><i>Spark</i></b> systems handling terabyte-scale datasets to <b><i>AWS-deployed machine learning pipelines</i></b>, I build
+               solutions that scale with demand. At BUAIIR Lab, I focused on optimizing ML models for resource-constrained IoT devices, 
+               balancing performance with computational efficiency.
               </p>
 
       
               <p>
-              Known as the "AI Evangelist" among peers, I bridge technical expertise with clear 
+              Known as the <b><i>"AI Evangelist"</i></b> among peers, I bridge technical expertise with clear 
               communication—approaching data science challenges with the same strategic focus and 
-              determination I bring to my favorite sport - Tennis. 🎾 🎾
+              determination I bring to my - <b><i> favorite sport, Tennis</i></b>. 🎾 
               </p>
+              
 
-              <p className="text-center text-2xl"><i>
-              🎯 "True <b>data science</b> is measured not by <b>model accuracy</b>, but by <b>business impact</b>." ~ Former Supervisor
+              <p className="text-center text-1.5xl"><i>
+              🎯 "True data science is measured not by <b>model accuracy</b>, but by <b>business impact</b>." ~ Ex-Supervisor, Standard Bank
               </i></p>
             </div>
           </motion.div>

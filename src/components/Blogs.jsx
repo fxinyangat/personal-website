@@ -45,8 +45,8 @@ const Blogs = () => {
           transition={{ duration: 0.6 }}
           className="mb-12"
         >
-          <h2 className="text-3xl font-bold mb-4">Latest Articles</h2>
-          <p className="text-gray-600">Exploring AI, Machine Learning, and Data Science concepts through practical insights.</p>
+          <h2 className="text-3xl font-bold mb-4">Featured Articles</h2>
+          <p className="text-gray-600">"Those that know, do. Those that understand, teach." ~ Aristotle. Here are some of my latest articles teaching what I understand.</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

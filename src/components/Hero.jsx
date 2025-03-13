@@ -23,7 +23,12 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Hello! I'm Xavier, AI Data Analyst @ <a 
+             <p>
+              Hello! I'm Xavier, 
+              </p>
+
+              <p>
+              AI Data Analyst @ <a 
                 href="https://ai.asu.edu/technical-foundation" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,6 +58,8 @@ const Hero = () => {
                 BUAIIR Lab
                 <FiArrowUpRight className="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a> (Core ML + IoT Edge).
+              </p>
+              
          
               <p>
               I develop end-to-end Data Science/ AI solutions using <i><b>Python, SQL, Tableau, AWS, and Machine Learning</b></i> - 
