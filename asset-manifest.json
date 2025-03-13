@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.c99ae7eb.css",
-    "main.js": "/personal-website/static/js/main.c1ee4a2c.js",
-    "static/js/453.55c3503c.chunk.js": "/personal-website/static/js/453.55c3503c.chunk.js",
-    "static/media/apple-hq-image.jpg": "/personal-website/static/media/apple-hq-image.4f006f015cec91d73583.jpg",
-    "static/media/data-intelligence-engine.png": "/personal-website/static/media/data-intelligence-engine.f5356dc0bf364475f61b.png",
-    "static/media/data-viz.png": "/personal-website/static/media/data-viz.8545eca92556e4c71df6.png",
-    "static/media/rag-pipeline.webp": "/personal-website/static/media/rag-pipeline.e5f8133cec4cd0d88f0b.webp",
-    "index.html": "/personal-website/index.html",
-    "main.c99ae7eb.css.map": "/personal-website/static/css/main.c99ae7eb.css.map",
-    "main.c1ee4a2c.js.map": "/personal-website/static/js/main.c1ee4a2c.js.map",
-    "453.55c3503c.chunk.js.map": "/personal-website/static/js/453.55c3503c.chunk.js.map"
+    "main.css": "/static/css/main.c99ae7eb.css",
+    "main.js": "/static/js/main.1e529d3f.js",
+    "static/js/453.55c3503c.chunk.js": "/static/js/453.55c3503c.chunk.js",
+    "static/media/apple-hq-image.jpg": "/static/media/apple-hq-image.4f006f015cec91d73583.jpg",
+    "static/media/data-intelligence-engine.png": "/static/media/data-intelligence-engine.f5356dc0bf364475f61b.png",
+    "static/media/data-viz.png": "/static/media/data-viz.8545eca92556e4c71df6.png",
+    "static/media/rag-pipeline.webp": "/static/media/rag-pipeline.e5f8133cec4cd0d88f0b.webp",
+    "index.html": "/index.html",
+    "main.c99ae7eb.css.map": "/static/css/main.c99ae7eb.css.map",
+    "main.1e529d3f.js.map": "/static/js/main.1e529d3f.js.map",
+    "453.55c3503c.chunk.js.map": "/static/js/453.55c3503c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c99ae7eb.css",
-    "static/js/main.c1ee4a2c.js"
+    "static/js/main.1e529d3f.js"
   ]
 }
