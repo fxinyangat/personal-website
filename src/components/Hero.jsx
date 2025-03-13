@@ -23,7 +23,17 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              AI Applied Data Scientist with experience @{" "}
+              Hello! I'm Xavier, AI Data Analyst @ <a 
+                href="https://ai.asu.edu/technical-foundation" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 inline-flex items-center gap-0.5 group"
+              >
+                Arizona State University
+                <FiArrowUpRight className="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </a>
+              
+                (Data, LLM + RAG). Prev. Credit Data Analyst @{" "}
               <a 
                 href="https://www.standardbank.com/sbg/standard-bank-group/our-group/about-us" 
                 target="_blank" 
@@ -33,19 +43,22 @@ const Hero = () => {
                 Standard Bank
                 <FiArrowUpRight className="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a>
-              , @{" "}
+              , Prev. AI/ML Research Intern @{" "}
               <a 
-                href="https://www.asu.edu/about" 
+                href="https://busitema.ac.ug/research/projects/busitema-ai-interdisciplinary-research-group" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 inline-flex items-center gap-0.5 group"
               >
-                Arizona State University
+                BUAIIR Lab
                 <FiArrowUpRight className="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-              </a>
-              . Specialized in developing end-to-end Data Science/AI solutions using <i><b>Python, SQL, and Machine Learning</b></i>. 
-                I transform raw data into production-ready AI solutions that deliver measurable business impact.
-           
+              </a> (Core ML + IoT Edge).
+         
+              <p>
+              I develop end-to-end Data Science/ AI solutions using <i><b>Python, SQL, Tableau, AWS, and Machine Learning</b></i> - 
+              from automation, ETL pipelines, BI dashboards to production-ready ML models.
+              
+              </p> 
             </motion.p>
       
 

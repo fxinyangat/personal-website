@@ -16,7 +16,7 @@ const Header = () => {
                 Xavier Inyangat
               </a>
               <span className="text-xs lg:text-sm text-gray-600 mt-0.5">
-                ML/AI Engineer | Data Scientist
+                Data Scientist | AI Engineer
               </span>
             </div>
 
