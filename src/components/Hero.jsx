@@ -4,7 +4,7 @@ import dataIntelligenceImage from '../assets/data-intelligence-engine.png';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen pt-24 px-4 bg-gradient-to-br from-white to-blue-50">
+    <main className="min-h-screen pt-24 px-4 bg-gradient-to-br from-white to-blue-50">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Left side - Text */}
@@ -132,7 +132,7 @@ const Hero = () => {
           </a>
         </motion.div>
       </div>
-    </section>
+    </main>
   );
 };
 
