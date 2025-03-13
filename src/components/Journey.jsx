@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiBookOpen, FiBriefcase } from 'react-icons/fi';
-import dataVizImage from '../assets/data-viz.png';
+import dataVizImage from '../assets/apple-hq-image4.png';
 
 const journeyPoints = [
   {

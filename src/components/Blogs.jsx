@@ -1,36 +1,37 @@
 import { motion } from 'framer-motion';
 import { FiClock, FiArrowRight } from 'react-icons/fi';
+// Import blog images
+import ragImage from '../assets/rag-pipeline.webp';
+import dataVizImage from '../assets/data-viz.png';
+import dataIntelligenceImage from '../assets/ml.jpg';
 
 const blogs = [
   {
     id: 1,
-    title: "Building Scalable RAG Pipelines: A Practical Guide",
-    excerpt: "Learn how to develop and optimize Retrieval-Augmented Generation pipelines for production environments.",
-    category: "LLMs",
-    date: "Mar 15, 2024",
-    readTime: "12 min read",
-    image: "/assets/rag-pipeline.webp",
-    link: "https://medium.com/@your-medium-username/rag-pipelines"
+    title: "Building Production-Ready RAG Applications",
+    description: "A deep dive into implementing Retrieval-Augmented Generation for enterprise applications...",
+    image: ragImage,
+    date: "March 15, 2024",
+    readTime: "10 min read",
+    link: "#"
   },
   {
     id: 2,
-    title: "LLM Evaluation Metrics: Beyond Accuracy",
-    excerpt: "A deep dive into comprehensive evaluation frameworks for Large Language Models, including human-centric metrics.",
-    category: "AI Research",
-    date: "Mar 10, 2024",
+    title: "Data Visualization Best Practices",
+    description: "Essential principles for creating effective and impactful data visualizations...",
+    image: dataVizImage,
+    date: "March 10, 2024",
     readTime: "8 min read",
-    image: "/assets/llm-eval.jpeg",
-    link: "https://medium.com/@your-medium-username/llm-evaluation"
+    link: "#"
   },
   {
     id: 3,
-    title: "Data Visualization Best Practices for Stakeholders",
-    excerpt: "How to create impactful data visualizations that drive decision-making and engage non-technical audiences.",
-    category: "Data Analytics",
-    date: "Mar 5, 2024",
-    readTime: "10 min read",
-    image: "/assets/data-viz.png",
-    link: "https://medium.com/@your-medium-username/data-viz-practices"
+    title: "The Future of AI in Banking",
+    description: "Exploring how AI is transforming the banking sector through automation and intelligence...",
+    image: dataIntelligenceImage,
+    date: "March 5, 2024",
+    readTime: "12 min read",
+    link: "#"
   }
 ];
 
@@ -82,7 +83,7 @@ const Blogs = () => {
                   </h3>
                   
                   <p className="text-gray-600 mb-4 line-clamp-2">
-                    {blog.excerpt}
+                    {blog.description}
                   </p>
 
                   <div className="flex items-center justify-between">

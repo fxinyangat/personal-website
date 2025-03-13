@@ -2,6 +2,11 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiGithub, FiExternalLink, FiBarChart2 } from 'react-icons/fi';
 
+// Import images
+import ragPipelineImage from '../assets/rag-pipeline.webp';
+import dataVizImage from '../assets/data-viz.png';
+import dataIntelligenceImage from '../assets/ml.jpg';
+
 const categories = [
   { id: 'all', name: 'All' },
   { id: 'ds', name: 'Data Science' },
@@ -17,7 +22,7 @@ const projects = [
     description: "Built scalable Retrieval-Augmented Generation pipelines for production environments, optimizing document retrieval and response generation.",
     category: "ai",
     tags: ["LangChain", "Python", "Vector DB", "LLMs"],
-    image: require('../assets/rag-pipeline.webp'),
+    image: ragPipelineImage,
     github: "https://github.com/yourusername/rag-pipeline",
     demo: "https://your-demo-link.com"
   },
@@ -27,7 +32,7 @@ const projects = [
     description: "Developed predictive models to identify potential customer churn using historical data and behavior patterns.",
     category: "ds",
     tags: ["Python", "Scikit-learn", "Pandas", "SQL"],
-    image: require('../assets/data-viz.png'),
+    image: dataVizImage,
     github: "https://github.com/yourusername/churn-analysis",
     demo: "https://your-demo-link.com"
   },
@@ -37,7 +42,7 @@ const projects = [
     description: "Created interactive dashboards to visualize sales trends, regional performance, and key business metrics.",
     category: "da",
     tags: ["Tableau", "SQL", "Excel", "Data Visualization"],
-    image: require('../assets/data-intelligence-engine.png'),
+    image: dataIntelligenceImage,
     github: "https://github.com/yourusername/sales-dashboard",
     demo: "https://your-demo-link.com"
   },
@@ -47,7 +52,7 @@ const projects = [
     description: "Built and deployed a machine learning model to analyze customer feedback and social media sentiment.",
     category: "ml",
     tags: ["NLP", "TensorFlow", "BERT", "Python"],
-    image: require('../assets/data-intelligence-engine.png'),
+    image: dataIntelligenceImage,
     github: "https://github.com/yourusername/sentiment-analysis",
     demo: "https://your-demo-link.com"
   }
