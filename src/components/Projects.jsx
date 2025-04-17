@@ -35,16 +35,16 @@ const projects = [
     github: "https://github.com/yourusername/churn-analysis",
     demo: "https://your-demo-link.com"
   },
-  {
-    id: 3,
-    title: "Sales Performance Dashboard",
-    description: "Created interactive dashboards to visualize sales trends, regional performance, and key business metrics.",
-    category: "da",
-    tags: ["Tableau", "SQL", "Excel", "Data Visualization"],
-    image: dataIntelligenceImage,
-    github: "https://github.com/yourusername/sales-dashboard",
-    demo: "https://your-demo-link.com"
-  },
+  // {
+  //   id: 3,
+  //   title: "Sales Performance Dashboard",
+  //   description: "Created interactive dashboards to visualize sales trends, regional performance, and key business metrics.",
+  //   category: "da",
+  //   tags: ["Tableau", "SQL", "Excel", "Data Visualization"],
+  //   image: dataIntelligenceImage,
+  //   github: "https://github.com/yourusername/sales-dashboard",
+  //   demo: "https://your-demo-link.com"
+  // },
   {
     id: 4,
     title: "AI-Driven Early Warning System for Cardiovascular Risk",
@@ -102,8 +102,8 @@ const projects = [
     category: "ds",
     tags: ["Python", "Item-Based Collaborative Filtering", "TF-IDF", "NLTK"],
     image: dataIntelligenceImage,
-    github: "https://github.com/fxinyangat/Predictive-Credit-Scoring-Machine-Learning-Approach-to-Lending-Decisions",
-    demo: "https://github.com/fxinyangat/Predictive-Credit-Scoring-Machine-Learning-Approach-to-Lending-Decisions"
+    github: "https://github.com/fxinyangat/restaurant_recommendation_system_model",
+    demo: "https://github.com/fxinyangat/restaurant_recommendation_system_model"
   }
   // Add more projects...
 ];
