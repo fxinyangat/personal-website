@@ -2,6 +2,14 @@ import { motion } from 'framer-motion';
 import { FiX, FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi';
 
 const MobileNav = ({ isOpen, onClose }) => {
+  const navLinks = [
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '#about' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Blogs', href: '#blogs' },
+    { name: 'Leadership', href: '#leadership' }
+  ];
+
   return (
     <>
       {/* Side Panel */}
@@ -21,10 +29,9 @@ const MobileNav = ({ isOpen, onClose }) => {
 
         {/* Navigation Links */}
         <div className="flex flex-col px-6 pt-20">
-          <a href="#home" className="py-4 text-lg border-b border-gray-100" onClick={onClose}>Home</a>
-          <a href="#about" className="py-4 text-lg border-b border-gray-100" onClick={onClose}>About</a>
-          <a href="#blogs" className="py-4 text-lg border-b border-gray-100" onClick={onClose}>Blogs</a>
-          <a href="#projects" className="py-4 text-lg border-b border-gray-100" onClick={onClose}>Projects</a>
+          {navLinks.map((link, index) => (
+            <a key={index} href={link.href} className="py-4 text-lg border-b border-gray-100" onClick={onClose}>{link.name}</a>
+          ))}
         </div>
 
         {/* Social Links */}

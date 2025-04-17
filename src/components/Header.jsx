@@ -5,6 +5,14 @@ import MobileNav from './MobileNav';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const navLinks = [
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '#about' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Blogs', href: '#blogs' },
+    // { name: 'Leadership', href: '#leadership' }
+  ];
+
   return (
     <>
       <header className="fixed top-0 w-full bg-white/80 backdrop-blur-sm z-50">
@@ -22,12 +30,16 @@ const Header = () => {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
-              <a href="#home" className="hover:text-blue-600">Home</a>
-              <a href="#about" className="hover:text-blue-600">About</a>
-              <a href="#projects" className="hover:text-blue-600">Projects</a>
-              <a href="#blogs" className="hover:text-blue-600">Blogs</a>
+              {navLinks.map((link, index) => (
+                <a 
+                  key={index} 
+                  href={link.href} 
+                  className="hover:text-blue-600 transition-colors"
+                >
+                  {link.name}
+                </a>
+              ))}
             
-             
               <a 
                 href="#projects"
                 className="w-full sm:w-auto border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-blue-50 transition-colors"
