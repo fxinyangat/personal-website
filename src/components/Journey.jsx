@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiBookOpen, FiBriefcase, FiMapPin } from 'react-icons/fi';
-import dataVizImage from '../assets/apple-hq-image4.png';
+import dataVizImage from '../assets/apple-hq-image6.png';
 
 const journeyPoints = [
   {
@@ -57,9 +57,9 @@ const Journey = () => {
         My Journey
       </motion.h2>
 
-      <div className="flex gap-12">
+      <div className="grid lg:grid-cols-2 gap-8 items-center">
         {/* Timeline Section */}
-        <div className="relative flex-1">
+        <div className="order-2 lg:order-1">
           {/* Timeline line */}
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-blue-100"></div>
 
@@ -97,27 +97,24 @@ const Journey = () => {
           </div>
         </div>
 
-        {/* Image Section - Hidden on mobile, visible on large screens */}
+        {/* Illustration */}
         <motion.div 
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          className="hidden lg:block w-1/3 relative"
+          className="order-1 lg:order-2 relative flex items-center overflow-hidden"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7 }}
         >
-          <div className="sticky top-24">
-            <img 
-              src={dataVizImage}
-              alt="Journey Illustration" 
-              className="w-full rounded-2xl shadow-lg"
-            />
-            <div className="absolute bottom-2 left-4 bg-white/50 backdrop-blur-sm p-3 rounded-lg flex items-center gap-2">
-              <FiMapPin className="w-4 h-4 text-blue-600" />
-              <p className="text-sm">Standard Bank HQ, Johannesburg, South Africa</p>
-            </div>
-            {/* <div className="absolute inset-0 bg-gradient-to-t from-blue-500/10 to-transparent rounded-2xl"></div> */}
+          <img 
+            src={dataVizImage}
+            alt="Professional Journey Illustration" 
+            className="w-full h-auto max-h-[600px] rounded-xl shadow-lg"
+          />
+          <div className="absolute bottom-2 left-4 bg-white/50 backdrop-blur-sm p-3 rounded-lg flex items-center gap-2">
+            <FiMapPin className="w-4 h-4 text-blue-600" />
+            <p className="text-sm">Google HQ, Mountain View, California: Winner of the Google AI Challenge</p>
           </div>
         </motion.div>
-       
+        
       </div>
     </div>
   );
