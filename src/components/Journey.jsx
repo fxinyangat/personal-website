@@ -6,7 +6,7 @@ const journeyPoints = [
   {
     id: 1,
     title: "Arizona State University",
-    role: "AI Data Analyst | Msc. Artificial Intelligence",
+    role: "AI Research & Data Analyst | Msc. Artificial Intelligence",
     period: "2024 - Present",
     type: "work",
     description: "Data Science - ML, NLP, RAG pipelines, LLMs finetuning"
@@ -14,7 +14,7 @@ const journeyPoints = [
   {
     id: 2,
     title: "Standard Bank",
-    role: "Credit Data Analyst",
+    role: "Data Analyst, Credit Portfolio",
     period: "2022 - 2024",
     type: "work",
     description: "ML, Data Modeling, ETL Pipelines, SQL, Python & Power BI Dashboards."

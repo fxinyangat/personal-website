@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiX, FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const MobileNav = ({ isOpen, onClose }) => {
   const navLinks = [
@@ -30,7 +31,14 @@ const MobileNav = ({ isOpen, onClose }) => {
         {/* Navigation Links */}
         <div className="flex flex-col px-6 pt-20">
           {navLinks.map((link, index) => (
-            <a key={index} href={link.href} className="py-4 text-lg border-b border-gray-100" onClick={onClose}>{link.name}</a>
+            <Link 
+              key={index} 
+              to={link.href} 
+              className="py-4 text-lg border-b border-gray-100" 
+              onClick={onClose}
+            >
+              {link.name}
+            </Link>
           ))}
         </div>
 

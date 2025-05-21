@@ -1,15 +1,16 @@
 import { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import MobileNav from './MobileNav';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '#about' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Blogs', href: '#blogs' },
+    { name: 'About', href: '/about' },
+    { name: 'Projects', href: '/projects' },
+    { name: 'Blogs', href: '/blogs' },
     // { name: 'Leadership', href: '#leadership' }
   ];
 
@@ -31,13 +32,13 @@ const Header = () => {
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
               {navLinks.map((link, index) => (
-                <a 
+                <Link 
                   key={index} 
-                  href={link.href} 
+                  to={link.href} 
                   className="hover:text-blue-600 transition-colors"
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
             
               <a 
