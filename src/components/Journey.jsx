@@ -48,7 +48,7 @@ const journeyPoints = [
 
 const Journey = () => {
   return (
-    <div className="mt-20">
+    <div id="journey" className="mt-20">
       <motion.h2 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

@@ -1,10 +1,17 @@
 import { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import MobileNav from './MobileNav';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const handleResumeClick = () => {
+    navigate('/#journey');
+    // Smooth scroll to journey section
+    document.getElementById('journey')?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   const navLinks = [
     { name: 'Home', href: '/' },
@@ -21,7 +28,7 @@ const Header = () => {
           <div className="flex justify-between items-center">
             {/* Logo and Title */}
             <div className="flex flex-col">
-              <a href="#home" className="text-xl lg:text-2xl font-bold text-blue-600">
+              <a href="/" className="text-xl lg:text-2xl font-bold text-blue-600">
                 Xavier Inyangat
               </a>
               <span className="text-xs lg:text-sm text-gray-600 mt-0.5">
@@ -41,13 +48,13 @@ const Header = () => {
                 </Link>
               ))}
             
-              <a 
-                href="#projects"
+              <button 
+                onClick={handleResumeClick}
                 className="w-full sm:w-auto border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-blue-50 transition-colors"
               >
                 View Resume
                 <span className="transform rotate-180">↓</span>
-              </a>
+              </button>
             </div>
 
             {/* Mobile Menu Button */}
