@@ -1,14 +1,21 @@
 import { motion } from 'framer-motion';
 import { FiX, FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const MobileNav = ({ isOpen, onClose }) => {
+  const navigate = useNavigate();
+
+  const handleResumeClick = () => {
+    navigate('/#journey');
+    document.getElementById('journey')?.scrollIntoView({ behavior: 'smooth' });
+    onClose();
+  };
+
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '#about' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Blogs', href: '#blogs' },
-    { name: 'Leadership', href: '#leadership' }
+    { name: 'About', href: '/about' },
+    { name: 'Projects', href: '/projects' },
+    { name: 'Blogs', href: '/blogs' }
   ];
 
   return (
@@ -40,6 +47,15 @@ const MobileNav = ({ isOpen, onClose }) => {
               {link.name}
             </Link>
           ))}
+
+          {/* Resume Button */}
+          <button 
+            onClick={handleResumeClick}
+            className="mt-4 py-4 text-lg text-blue-600 font-medium flex items-center gap-2"
+          >
+            View Resume
+            <span className="transform rotate-180">↓</span>
+          </button>
         </div>
 
         {/* Social Links */}
