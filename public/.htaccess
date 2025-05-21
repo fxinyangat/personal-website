@@ -1,0 +1,2 @@
+# Proper MIME type for XML files
+AddType application/xml .xml 
