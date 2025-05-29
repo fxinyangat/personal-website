@@ -28,7 +28,7 @@ const Hero = () => {
               </p>
 
               <p>
-              AI Data Analyst @ <a 
+              AI Research & Data Analyst @ <a 
                 href="https://ai.asu.edu/technical-foundation" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -38,14 +38,14 @@ const Hero = () => {
                 <FiArrowUpRight className="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a>
               
-                (Data, LLM + RAG). Prev. Credit Data Analyst @{" "}
+                (Data Science, LLMs + ML). Prev. Credit Data Analyst @{" "}
               <a 
-                href="https://www.standardbank.com/sbg/standard-bank-group/our-group/about-us" 
+                href="https://www.stanbicbank.co.ug/uganda/personal" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 inline-flex items-center gap-0.5 group"
               >
-                Standard Bank
+                Stanbic Bank
                 <FiArrowUpRight className="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a>
               , Prev. AI/ML Research Intern @{" "}
@@ -77,12 +77,12 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <a 
-                href="https://linkedin.com/in/inyangatfx"
+                href="https://calendly.com/fx-inyangat/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-blue-600 text-white px-8 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-blue-700 transition-colors"
               >
-                LinkedIn
+                Schedule a Meeting
                 <span className="transform rotate-45">↗</span>
               </a>
               
