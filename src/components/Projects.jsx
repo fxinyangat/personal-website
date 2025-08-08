@@ -32,8 +32,8 @@ const projects = [
     category: "ds",
     tags: ["Python", "Gradient Boosting", "Scikit-learn"],
     image: dataVizImage,
-    github: "https://github.com/yourusername/churn-analysis",
-    demo: "https://your-demo-link.com"
+    github: "https://github.com/fxinyangat/Machine-Learning-Driven-Property-Valuation_House-Price-Prediction",
+    demo: "https://github.com/fxinyangat/Machine-Learning-Driven-Property-Valuation_House-Price-Prediction"
   },
   // {
   //   id: 3,
